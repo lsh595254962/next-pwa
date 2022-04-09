@@ -1,0 +1,36 @@
+/*
+ * @Author: liushuaihao
+ * @Date: 2022-04-09 11:16:21
+ * @LastEditors: liushuaihao
+ * @LastEditTime: 2022-04-09 15:57:19
+ * @Description:
+ */
+import React, { useState } from "react";
+import Head from "next/head";
+import { Affix } from "antd";
+import Header from "../Header";
+import Footer from "../Footer";
+import Left from "../Left";
+import Right from "../Right";
+require("./index.less");
+
+export default function Layout({ children, title = "NEXT PWA" }) {
+  return (
+    <div className="layout-wrap">
+      <Head>
+        <title>{title}</title>
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+      <Affix offsetTop={0} className="header-affix">
+        <Header />
+      </Affix>
+      <main className="main container">
+        <Left />
+        <div className="content-wrap">{children}</div>
+        {/* <Right /> */}
+      </main>
+      <Footer />
+    </div>
+  );
+}

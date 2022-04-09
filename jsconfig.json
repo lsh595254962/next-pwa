@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "components": ["./components"],
+        "styles": ["./styles"],
+        // "@static/*":["public/next_static/*"]
+      }
+    },
+    "exclude": ["node_modules", ".next"],
+    // "include": ["src", "libs"]
+  }

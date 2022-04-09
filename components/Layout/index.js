@@ -2,7 +2,7 @@
  * @Author: liushuaihao
  * @Date: 2022-04-09 11:16:21
  * @LastEditors: liushuaihao
- * @LastEditTime: 2022-04-09 15:57:19
+ * @LastEditTime: 2022-04-09 17:07:12
  * @Description:
  */
 import React, { useState } from "react";
@@ -17,11 +17,7 @@ require("./index.less");
 export default function Layout({ children, title = "NEXT PWA" }) {
   return (
     <div className="layout-wrap">
-      <Head>
-        <title>{title}</title>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-      </Head>
+      <Head><title>{title}</title></Head>
       <Affix offsetTop={0} className="header-affix">
         <Header />
       </Affix>

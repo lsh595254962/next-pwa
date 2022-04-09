@@ -2,12 +2,12 @@
  * @Author: liushuaihao
  * @Date: 2022-04-09 16:54:20
  * @LastEditors: liushuaihao
- * @LastEditTime: 2022-04-09 16:57:27
+ * @LastEditTime: 2022-04-09 17:26:25
  * @Description: service-worker.js
  */
 const version = "0.0.1",
   CACHE = version + "::AiYaMember",
-  installFilesEssential = ["/", "/manifest.json", "/favicon.ico", "/512.jpg"];
+  installFilesEssential = ["/", "/manifest.json", "/favicon.ico", "/512.png"];
 
 // install static assets
 function installStaticFiles() {

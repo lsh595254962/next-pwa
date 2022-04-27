@@ -1,26 +1,31 @@
 {
-    "name": "AIYA PWA", 
-    "short_name": "AIYA", 
-    "icons": [
-        {
-            "src": "/512.png",
-            "sizes": "180x180",
-            "type": "image/png"
-        },
-        {
-            "src": "/512.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "start_url": "/", 
-    "scrope": "/", 
-    "display": "standalone",
-    "theme_color": "#FFF",
-    "background_color": "#FFF" 
+  "name": "aiya PWA",
+  "short_name": "PWA",
+  "icons": [
+    {
+      "src": "/img/logo/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo/152x152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/img/logo/256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "scrope": "/",
+  "display": "standalone",
+  "theme_color": "#1976d2",
+  "background_color": "#FFF"
 }
